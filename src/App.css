@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;900&display=swap');
+
+*{
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.container{
+  width:90vw;
+  margin: 0 auto;
+}
+
+.contact-us{
+  width: 80vw;
+  margin: 0 auto;
+}
+
+
+.contact-us p{
+  width:50vw;
+}
+.form {
+  width: 80vw;
+  margin:0 auto;
+  margin-top:50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-page{
+  width: 100vw;
+}
+
+.buttons{
+  width:100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 17px;
+}
+
+.buttons button{
+  background-color: black;
+  color: white;
+  width:40%;
+  padding: 8px 22px;
+  border: none;
+  border-radius: 5px;
+  
+
+}
+
+.full-button{
+  width: 100%;
+  margin-bottom: 23px;
+}
+
+.full-button button{
+  width: 100%;
+  color:black;
+  background-color: white;
+  padding: 8px 24px;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+input{
+  height: 40px;
+  margin-bottom: 20px;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  width: 30vw;
+  margin: 0 auto;
+}
+
+.form-img img{
+  width:550px;
+  height: 380px;
+}
+
+form button{
+  background-color: black;
+  color: white;
+  width:40%;
+  padding: 8px 22px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
